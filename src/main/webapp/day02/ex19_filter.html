@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	div{width: 650px; margin: 100px auto;
+		border: 1px solid #ccc;
+		padding:10px;
+	}
+	
+	div img{
+		width: 200px;  margin: 6px;
+	}
+	
+	img:nth-of-type(2) { filter:blur(3px);}       /* 흐림효과 : 값이 커질 수록 흐림효과도 더 진다.*/
+	img:nth-of-type(3) {filter:brightness(0.5);}  /* 1보다 작아지면 어두워지고 커지면 밝아짐 */
+	img:nth-of-type(4) {filter:contrast(150%);}   /* 100%에서 작아지면 염암 대비 효과 감소 */
+	img:nth-of-type(5) {filter:grayscale(100%)}
+	img:nth-of-type(6) {filter:hue-rotate(180deg)}
+	img:nth-of-type(7) {filter:invert(100%)}
+	img:nth-of-type(8) {filter:saturate(0.5)}
+	img:nth-of-type(9) {filter:sepia(100%)}
+</style>
+</head>
+<body>
+	<div>
+		<img alt="" src="../images/rose.jpg">
+		<img alt="" src="../images/rose.jpg">
+		<img alt="" src="../images/rose.jpg">
+		<img alt="" src="../images/rose.jpg">
+		<img alt="" src="../images/rose.jpg">
+		<img alt="" src="../images/rose.jpg">
+		<img alt="" src="../images/rose.jpg">
+		<img alt="" src="../images/rose.jpg">
+		<img alt="" src="../images/rose.jpg">
+	</div>
+</body>
+</html>
