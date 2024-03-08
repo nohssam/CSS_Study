@@ -1,5 +1,5 @@
 @charset "UTF-8";
-*{box-sizing:border-box;}
+
 .header{
 	/* 위에 고정 - 스크롤 되었을 때 계속 보이게 하자. */
 	position: fixed;
